@@ -3,16 +3,18 @@ title = "A Tic Tac Toe Board"
 puts title.upcase
 
 def infinity_tic_tac(x)
-  def display_board
-    row = "   |   |   "
-    border = "-----------"
-    puts row
-    puts border
-    puts row
-    puts border
-    puts row
+    def display_board
+      row = "   |   |   "
+      border = "-----------"
+      puts row
+      puts border
+      puts row
+      puts border
+      puts row
+    end
+  x.times do
+    display_board
   end
-  x.times display_board
 end
 
 infinity_tic_tac(5)
